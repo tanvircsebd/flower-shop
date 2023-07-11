@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* Banner Area Style */
+.banner{
+    height: 68vh;
+    background-color: rgba(229, 84, 115, 0.11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner-details{
+    margin-left: 100px;
+}
+.title{
+    font-weight: bold;
+    color: black;
+}
+.description{
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+.btn-primary{
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.background{
+    background-color: #d63b59;
+    color: white;
+    font-weight: bolder;
+}
+.banner-image{
+    width: 330px;
+    height: 390px;
+    margin-right: 100px;
+}
+/* Main Area Style */
+.featured-flower{
+    text-align: center;
+    padding: 100px;
+}
+.featured-flower-title{
+    padding-bottom: 5px;
+}
+/* Flower Varient Style */
+.flowers-featured{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-right: 240px;
+    padding-left: 240px;
+    gap: 24px;
+}
+.first{
+    width: 300px;
+    height: 360px;
+    background-color: #A7216235;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.second{
+    width: 300px;
+    height: 360px;
+    background-color: #0597A035;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.third{
+    width: 300px;
+    height: 360px;
+    background-color: #477D1130;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+.flower-image{
+    width: 170px;
+    height: 250px;
+    margin-top: 110px;
+    margin-right: 76px;
+    margin-left: 76px;
+}
+/* Flower Name */
+.flower-name{
+    display: flex;
+    justify-content: center;
+    padding-right: 240px;
+    padding-left: 240px;
+    gap: 200px;
+    padding-bottom: 128px;
+}
+.name{
+    text-decoration: underline;
+}
+/* Hot Deal Area Style */
+.deals-section{
+    height: 60vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* hot deal text Info */
+.hot-deal{
+    margin-left: 120px;
+    align-items: center;
+}
+.hot-deal-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.Sign-Up{
+    color: #B3090F;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #d63b59;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+}
+.hot-deal-details{
+    color: black;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: auto;
+    text-align: center;
+}
+/* hot deal Image */
+.hot-deal-image{
+    width: 265px;
+    height: 350px;
+    margin-right: 200px;
+}
+.instagram-section{
+    text-align: center;
+    padding: 50px;
+}
+.instagram-section h2{
+    padding-bottom: 5px;
+}
+.instagram-image{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+.instagram-image > img{
+    height: 245px;
+    border: solid 2px white;
+}
+
+
+/* Latest Deal Style */
+.latest-deal-section{
+    background-image: url("/asset/Rectangle\ 9.png");
+    background-size: cover;
+    background-position: center;
+    width: 940px;
+    height: 350px;
+    margin-left: 163px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.color-last{
+    color: #C9AE00;
+}
+
+.coupon{
+    padding-top: 130px;
+}
+.input-subscribe{
+    padding-top: 10px;
+}
+.input{
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+}
+.subscribe{
+    height: 30px;
+    color: white;
+    font-weight: bolder;
+    background-color: #d63b59;
+    border-radius: 5px;
+    width: 100px;
+    height: 34px;
+}
+/* contact area css */
+#contact {
+    background-color: #d63b59;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    /* height: 50%; */
+    margin-left: 300px;
+}
+
+#contact .flex-container{
+    align-items: unset;
+}
+#contact .section-heading{
+    text-align: center;
+    padding-top:20px;
+}
+#contact .sub-heading{
+    text-align: center;
+    opacity: 0.7;
+    width: 50%;
+    margin: 20px auto;
+}
+
+form .input-box{
+    font-size: 16px;
+    outline: none;
+    height: 30px;
+    width: 50%;
+    margin-left: 130px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-style: none;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+form textarea{
+    min-height: 200px;
+}
+form input[type="submit"]{
+    width: 20%;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    padding: 10px auto;
+    margin: 20px auto 0px auto;
+    display: block;
+}
+
+/* Footer Area Style */
+footer{
+    background-color: #111010;
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-special{
+    font-size: 45px;
+}
+.footer-title{
+    color: #d63b59;
+    font-weight: bolder;
+}
